@@ -35,7 +35,8 @@ The dataset was provided to me from Westrock Coffee. The dataset consists of 10,
 - 2016
 - Course Attended
 
-A description of the columns are in 
+A description of the columns are in [course_description.md](https://github.com/meutband/Capstone/blob/master/column_description.md).
+
 
 ## 3 The Model
 
