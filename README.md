@@ -51,7 +51,7 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png"
 align="middle"/>
-<h4 aligh="center"> Figure 1. The number of farmers under each staff member.</h4>
+<h4 align="center"> Figure 1. The number of farmers under each staff member.</h4>
 </p>
 
 
