@@ -60,6 +60,13 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 <h6 align="left"> Figure 2. The number of farmers under each staff member.</h6>
 <h6 align="right"> Figure 3. The number of farmers that took x number of courses.</h6>
 
+<table style="width:100%">
+     <tr>
+     <td> Figure 2. The number of farmers under each staff member.</td>
+     <td> Figure 3. The number of farmers that took x number of courses.</td>
+     </tr>
+</table>
+
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="400" height="300"/>
 <img src="https://github.com/meutband/Capstone/blob/master/images/courses_farmers.png" width="300" height="300"/>
