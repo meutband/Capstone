@@ -40,7 +40,7 @@ A brief description of the columns are in [course_description.md](https://github
 The dataset contain many rows with empty values for columns. I felt that none of the columns were more important to not be empty than 2015 and 2016. These missing entries were recorded as 0 and will unfavorably influence results if used as is. If available, missing values for one year were filled in with the other year. If both years had missing values, the row was dropped from analysis.
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png" width="500" height="500"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/scat_matr_sqrt.png" width="500" height="500"/>
 <h6 align="middle"> Figure 1. Scatter Matrix of the dataset.</h6>
 </p>
 
