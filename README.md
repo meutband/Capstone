@@ -13,7 +13,7 @@
 
 ## 1 Motivation
 
-# Agribusiness Training Program
+## Agribusiness Training Program
 
 The coffee industry's future wull remain unsecured until transparency, shared value, and the opportunity for presperity amoung smallholder farmers become an industry norm. 
 
