@@ -41,7 +41,6 @@ The dataset contain many rows with empty values for columns. I felt that none of
 
 ## 3 The Model
 
-
 ###3.1 Setup
 
 For analysis, I decided to make a new column that calculate the average yield totals for each farmer. 
