@@ -35,13 +35,25 @@ The dataset was provided to me from Westrock Coffee. The dataset consists of 10,
 - 2016
 - Course Attended
 
-A description of the columns are in [course_description.md](https://github.com/meutband/Capstone/blob/master/column_description.md).
+A brief description of the columns are in [course_description.md](https://github.com/meutband/Capstone/blob/master/column_description.md).
 
+The dataset contain many rows with empty values for columns. I felt that none of the columns were more important to not be empty than 2015 and 2016. These missing entries were recorded as 0 and will unfavorably influence results if used as is. If available, missing values for one year were filled in with the other year. If both years had missing values, the row was dropped from analysis.
 
 ## 3 The Model
 
 
 ###3.1 Setup
+
+For analysis, I decided to make a new column that calculate the average yield totals for each farmer. 
+
+The Stations, Staff, and Group ID are categorical variables, therefore for analysis, I created dummy variables for the columns. The Course Attended column is a list of courses. For analysis, I split the list and created dummy variables for each course as well as if a course was taken 2 or more times. 
+
+<p align="center">
+<img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png"
+align="middle"/>
+<h4 aligh="center"> Figure 1. The number of farmers under each staff member.</h4>
+</p>
+
 
 
 ###3.2 Splitting the Data
