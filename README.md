@@ -6,10 +6,10 @@
       * [3.2 Splitting the Data](#32-splitting-the-data)
       * [3.3 Running the Model](#33-running-the-model)
       * [3.4 Model Summary](#34-model-summary)
-4. [The Staff]
+4. [The Staff](#4-the-staff)
       * [4.1 Grouping the Farmers](#41-grouping-the-farmers)
       * [4.2 Staff Summary](#42-staff-summary)
-5. [Conclusion]
+5. [Conclusion](#5-conclusion)
 
 ## 1 Motivation
 
