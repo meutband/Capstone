@@ -61,7 +61,7 @@ align="middle"/>
 </p>
 
 <p align="left">
-<img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="400" height="400"
+<img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="600" height="400"
 align="middle"/>
 <h4 align="left"> Figure 3. The number of times that courses were taken together.</h4>
 </p>
