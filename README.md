@@ -57,23 +57,24 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png" width="300" height="300"/>
 <img src="https://github.com/meutband/Capstone/blob/master/images/course_counts.png" width="300" height="300"/>
-<h6 align="left"> Figure 2. The number of farmers under each staff member.</h6>
-<h6 align="right"> Figure 3. The number of farmers that took x number of courses.</h6>
-
 <table style="width:100%">
      <tr>
      <td> Figure 2. The number of farmers under each staff member.</td>
      <td> Figure 3. The number of farmers that took x number of courses.</td>
      </tr>
 </table>
+</p>
 
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="400" height="300"/>
 <img src="https://github.com/meutband/Capstone/blob/master/images/courses_farmers.png" width="300" height="300"/>
-<h6 align="left"> Figure 4. The number of times that courses were taken together.</h6>
-<h6 align="right"> Figure 5. The number of farmers that take each course.</h6>
-
-
+<table style="width:100%">
+     <tr>
+     <td> Figure 4. The number of times that courses were taken together.</td>
+     <td> Figure 5. The number of farmers that take each course.</td>
+     </tr>
+</table>
+</p>
 ###3.2 Splitting the Data
 
 
