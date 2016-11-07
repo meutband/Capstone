@@ -23,6 +23,19 @@ Equipping farners to build a financial foundation based on their coffee business
 
 ## 2 The Dataset
 
+The dataset was provided to me from Westrock Coffee. The dataset consists of 10,518 farmers with the following features:
+- Stations
+- Staff
+- Group ID
+- Household ID
+- Farmer Name
+- Attendance
+- Adoption
+- 2015
+- 2016
+- Course Attended
+
+A description of the columns are in 
 
 ## 3 The Model
 
