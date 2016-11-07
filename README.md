@@ -15,7 +15,7 @@
 
 # Agribusiness Training Program
 
-The coffee industry's fufure wull remain unsecured until transparency, shared value, and the opportunity for presperity amoung smallholder farmers become an industry norm. 
+The coffee industry's future wull remain unsecured until transparency, shared value, and the opportunity for presperity amoung smallholder farmers become an industry norm. 
 
 Equipping farners to build a financial foundation based on their coffee businesses creates space for them to reclaim power over their future and in doing so they will ensure our future coffee supply. Coffee farmers who are empowered with specific skills to increase and leverage their collective coffee incomes, are the most qualified individuals to solve the problems that perpetuate poverty in their households and communities.
 
