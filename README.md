@@ -48,15 +48,15 @@ For analysis, I decided to make a new column that calculate the average yield to
 The Stations, Staff, and Group ID are categorical variables, therefore for analysis, I created dummy variables for the columns. The Course Attended column is a list of courses. For analysis, I split the list and created dummy variables for each course as well as if a course was taken 2 or more times. 
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png" width="400" height="400"/>
-<img src="https://github.com/meutband/Capstone/blob/master/images/course_counts.png" width="400" height="400"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png" width="300" height="300"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/course_counts.png" width="300" height="300"/>
 <h6 align="left"> Figure 1. The number of farmers under each staff member.</h6>
 <h6 align="right"> Figure 2. The number of farmers that took x number of courses.</h6>
 </p>
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="500" height="400"/>
-<img src="https://github.com/meutband/Capstone/blob/master/images/courses_farmers.png" width="400" height="400"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/heatmap.png" width="400" height="300"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/courses_farmers.png" width="300" height="300"/>
 <h6 align="left"> Figure 3. The number of times that courses were taken together.</h6>
 <h6 align="right"> Figure 4. The number of farmers that take each course.</h6>
 
