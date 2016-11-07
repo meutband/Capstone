@@ -47,13 +47,10 @@ For analysis, I decided to make a new column that calculate the average yield to
 
 The Stations, Staff, and Group ID are categorical variables, therefore for analysis, I created dummy variables for the columns. The Course Attended column is a list of courses. For analysis, I split the list and created dummy variables for each course as well as if a course was taken 2 or more times. 
 
-<p align="left">
+<p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/staff_counts.png" width="400" height="400"/>
-<h4 align="left"> Figure 1. The number of farmers under each staff member.</h4>
-
-
-<p align="right">
 <img src="https://github.com/meutband/Capstone/blob/master/images/course_counts.png" width="400" height="400"/>
+<h4 align="left"> Figure 1. The number of farmers under each staff member.</h4>
 <h4 align="right"> Figure 2. The number of farmers that took x number of courses.</h4>
 
 
