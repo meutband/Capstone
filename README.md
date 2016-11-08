@@ -122,8 +122,8 @@ For all the mean and median calculations, I ranked the field officers by feature
 <img src="https://github.com/meutband/Capstone/blob/master/images/median_ranks.png" width="400" height="300"/>
 <table align="center">
      <tr>
-     <td> Figure 9. The rankings of the mean values.</td>
-     <td> Figure 10. The rankings of the median values.</td>
+     <td> Figure 9. The rankings of the mean values with mean ranking.</td>
+     <td> Figure 10. The rankings of the median values with median ranking.</td>
      </tr>
 </table>
 </p>
