@@ -116,7 +116,7 @@ Below is the results from the model. The code for the model can be found here [a
 For field officer analysis, I grouped all the farmers together by their field officer (Staff column). For the each field officer I calculated the mean farmer and the median farmer for all features, and the count of all course features. The features that I focused on in particular were the attendance rates, adoption rates, and the average yield totals. 
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/att_vs_adopt.png" width="500" height="1000"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/att_vs_adopt.png" width="300" height="600"/>
 <h6 align="center"> Figure 9. Mean Attendace vs. Adoption for all field officers.</h6>
 </p>
 
