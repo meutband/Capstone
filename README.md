@@ -106,7 +106,7 @@ Below is the results from the model. The code for the model can be found here [a
 
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/All%20Data%20Adoption%20Summary.png" width="500" height="1000"/>
-<h6 align="center"> Figure 7. Backwards Stepwise Selection steps.</h6>
+<h6 align="center"> Figure 8. Backwards Stepwise Selection steps.</h6>
 </p>
 
 ## 4 The Staff
@@ -118,12 +118,12 @@ For field officer analysis, I grouped all the farmers together by their field of
 For all the mean and median calculations, I ranked the field officers by feature and then calculated the mean and median (with respect to the inital calculations). Below are the graphs for the rankings for each calculation.
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/mean_ranks.png" width="300" height="300"/>
-<img src="https://github.com/meutband/Capstone/blob/master/images/median_ranks.png" width="300" height="300"/>
-<table style="width:100%">
+<img src="https://github.com/meutband/Capstone/blob/master/images/mean_ranks.png" width="400" height="300"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/median_ranks.png" width="400" height="300"/>
+<table style="width:200%">
      <tr>
-     <td> Figure 8. The rankings of the mean values.</td>
-     <td> Figure 9. The rankings of the median values.</td>
+     <td> Figure 9. The rankings of the mean values.</td>
+     <td> Figure 10. The rankings of the median values.</td>
      </tr>
 </table>
 </p>
