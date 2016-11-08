@@ -135,7 +135,9 @@ For all the mean and median calculations, I ranked the field officers by feature
 
 ###4.2 Staff Summary
 
+2 out of the top 5 field officers who have the highest average yield are in the top third of mean average rank, 2 others are in the middle third, while 1 is in the bottom third.
 
+1 out of the top 5 field officers who have the highest median yield are in the top third of the median average rank, 3 others are in the middle third, while 1 is in the bottom third.
 
 ## 5 Conclusion
 
