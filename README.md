@@ -76,7 +76,6 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 </table>
 </p>
 
-
 ###3.2 Splitting the Data
 
 For splitting the data into a training set and testing set, I choose to use kfold cross validation with the number of folds as 10. 
@@ -86,9 +85,11 @@ For splitting the data into a training set and testing set, I choose to use kfol
 <h6 align="center"> Figure 6. A breakdown of kfold cross validation.</h6>
 </p>
 
+All of the setup and splitting is in this file [clean-up.py] (https://github.com/meutband/Capstone/blob/master/src/clean_up.py).
+
 ###3.3 Running the Model
 
-For the model, I choose to use Linear Regression to predict the average yield between 2015 and 2016. Farmer Name, Household ID, 2015 and 2016 were features that I choose to remove from the model in order to get a more accurate prediction from the other features. 
+For the model, I choose to use Linear Regression to predict the average yield between 2015 and 2016. Farmer Name, Household ID, 2015 and 2016 were features that I choose to remove from the model in order to get a more accurate prediction from the other features. I added interaction features between the adoption rate and each course taken and each course taken 2 or more times. This allows for no effect on the model if there is no adoption rate. 
 
 As I ran the Linear Model, I removed the least important features (highest pvalue) from the model using Backwards Stepwise Selection technique. I choose to remove features that had a pvalue greater than 0.05. 
 
@@ -97,13 +98,21 @@ As I ran the Linear Model, I removed the least important features (highest pvalu
 <h6 align="center"> Figure 7. Backwards Stepwise Selection steps.</h6>
 </p>
 
+If an interaction was in the final model, and the course was taken out of the model, then I put the original course column feature back into the model so the effect of the course can occur alongside the interaction. If adoption was removed, then it was also put back into the model. 
+
 ###3.4 Model Summary
 
+Below is the results from the model. The code for the model can be found here [all_data_model.py] (https://github.com/meutband/Capstone/blob/master/src/all_data_model.py).
+
+<p align="center">
+<img src="https://github.com/meutband/Capstone/blob/master/images/All%20Data%20Adoption%20Summary.png" width="400" height="1000"/>
+<h6 align="center"> Figure 7. Backwards Stepwise Selection steps.</h6>
+</p>
 
 ## 4 The Staff
 
-
 ###4.1 Grouping the Farmers
+
 
 
 ###4.2 Staff Summary
@@ -111,3 +120,5 @@ As I ran the Linear Model, I removed the least important features (highest pvalu
 
 
 ## 5 Conclusion
+
+I want to thank 
