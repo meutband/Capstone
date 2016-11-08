@@ -121,4 +121,6 @@ Below is the results from the model. The code for the model can be found here [a
 
 ## 5 Conclusion
 
-I want to thank 
+I want to thank the instructors for all the help and support for the duration of the project as well as the program. I also want the thank Westrock Coffee for the opportunity to work on the project. 
+
+If you have any questions about this project you can reach me on [Twitter] (https://twitter.com/markhevans1) or [LinkedIn] (Public Profilehttps://www.linkedin.com/in/markhevans).
