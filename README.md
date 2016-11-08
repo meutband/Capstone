@@ -82,7 +82,7 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 For splitting the data into a training set and testing set, I choose to use kfold cross validation with the number of folds as 10. 
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/kfold_image.jpg" width="400" height="400"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/kfold_image.jpg" width="600" height="300"/>
 <h6 align="center"> Figure 6. A breakdown of kfold cross validation.</h6>
 </p>
 
