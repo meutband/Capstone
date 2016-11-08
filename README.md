@@ -113,7 +113,20 @@ Below is the results from the model. The code for the model can be found here [a
 
 ###4.1 Grouping the Farmers
 
+For field officer analysis, I grouped all the farmers together by their field officer (Staff column). For the each field officer I calculated the mean farmer and the median farmer for all features, and the count of all course features. The features that I focused on in particular were the attendance rates, adoption rates, and the average yield totals. 
 
+For all the mean and median calculations, I ranked the field officers by feature and then calculated the mean and median (with respect to the inital calculations). Below are the graphs for the rankings for each calculation.
+
+<p align="center">
+<img src="https://github.com/meutband/Capstone/blob/master/images/mean_ranks.png" width="300" height="300"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/median_ranks.png" width="300" height="300"/>
+<table style="width:100%">
+     <tr>
+     <td> Figure 8. The rankings of the mean values.</td>
+     <td> Figure 9. The rankings of the median values.</td>
+     </tr>
+</table>
+</p>
 
 ###4.2 Staff Summary
 
