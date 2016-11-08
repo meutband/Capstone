@@ -118,6 +118,7 @@ For field officer analysis, I grouped all the farmers together by their field of
 <p align="center">
 <img src="https://github.com/meutband/Capstone/blob/master/images/att_vs_adopt.png" width="300" height="600"/>
 <h6 align="center"> Figure 9. Mean Attendace vs. Adoption for all field officers.</h6>
+<h6 align="center"> Attendance is light blue, Adoption is blue</h6>
 </p>
 
 For all the mean and median calculations, I ranked the field officers by feature and then calculated the mean and median (with respect to the inital calculations). Below are the graphs for the rankings for each calculation.
