@@ -75,11 +75,27 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
      </tr>
 </table>
 </p>
+
+
 ###3.2 Splitting the Data
 
+For splitting the data into a training set and testing set, I choose to use kfold cross validation with the number of folds as 10. 
+
+<p align="center">
+<img src="https://github.com/meutband/Capstone/blob/master/images/kfold_image.jpg" width="400" height="400"/>
+<h6 align="center"> Figure 6. A breakdown of kfold cross validation.</h6>
+</p>
 
 ###3.3 Running the Model
 
+For the model, I choose to use Linear Regression to predict the average yield between 2015 and 2016. Farmer Name, Household ID, 2015 and 2016 were features that I choose to remove from the model in order to get a more accurate prediction from the other features. 
+
+As I ran the Linear Model, I removed the least important features (highest pvalue) from the model using Backwards Stepwise Selection technique. I choose to remove features that had a pvalue greater than 0.05. 
+
+<p align="center">
+<img src="https://github.com/meutband/Capstone/blob/master/images/back_select.png" width="400" height="400"/>
+<h6 align="center"> Figure 7. Backwards Stepwise Selection steps.</h6>
+</p>
 
 ###3.4 Model Summary
 
