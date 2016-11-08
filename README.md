@@ -85,7 +85,7 @@ For splitting the data into a training set and testing set, I choose to use kfol
 <h6 align="center"> Figure 6. A breakdown of kfold cross validation.</h6>
 </p>
 
-All of the setup and splitting is in this file [clean-up.py] (https://github.com/meutband/Capstone/blob/master/src/clean_up.py).
+All of the setup and splitting can be found here [clean-up.py] (https://github.com/meutband/Capstone/blob/master/src/clean_up.py).
 
 ###3.3 Running the Model
 
@@ -105,7 +105,7 @@ If an interaction was in the final model, and the course was taken out of the mo
 Below is the results from the model. The code for the model can be found here [all_data_model.py] (https://github.com/meutband/Capstone/blob/master/src/all_data_model.py).
 
 <p align="center">
-<img src="https://github.com/meutband/Capstone/blob/master/images/All%20Data%20Adoption%20Summary.png" width="400" height="1000"/>
+<img src="https://github.com/meutband/Capstone/blob/master/images/All%20Data%20Adoption%20Summary.png" width="500" height="1000"/>
 <h6 align="center"> Figure 7. Backwards Stepwise Selection steps.</h6>
 </p>
 
