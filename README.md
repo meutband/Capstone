@@ -48,7 +48,7 @@ The dataset was combined with a tree dataset that has the number of trees and th
 
 ## 3 The Model
 
-###3.1 Setup
+### 3.1 Setup
 
 For analysis, I decided to make a new column that calculate the average yield totals for each farmer. 
 
@@ -76,7 +76,7 @@ The Stations, Staff, and Group ID are categorical variables, therefore for analy
 </table>
 </p>
 
-###3.2 Splitting the Data
+### 3.2 Splitting the Data
 
 For splitting the data into a training set and testing set, I choose to use kfold cross validation with the number of folds as 10. 
 
@@ -87,7 +87,7 @@ For splitting the data into a training set and testing set, I choose to use kfol
 
 All of the setup and splitting can be found here [clean-up.py] (https://github.com/meutband/Capstone/blob/master/src/clean_up.py).
 
-###3.3 Running the Model
+### 3.3 Running the Model
 
 For the model, I choose to use Linear Regression to predict the average yield between 2015 and 2016. Farmer Name, Household ID, 2015 and 2016 were features that I choose to remove from the model in order to get a more accurate prediction from the other features. I added interaction features between the adoption rate and each course taken and each course taken 2 or more times. This allows for no effect on the model if there is no adoption rate. 
 
@@ -100,7 +100,7 @@ As I ran the Linear Model, I removed the least important features (highest pvalu
 
 If an interaction was in the final model, and the course was taken out of the model, then I put the original course column feature back into the model so the effect of the course can occur alongside the interaction. If adoption was removed, then it was also put back into the model. 
 
-###3.4 Model Summary
+### 3.4 Model Summary
 
 Below is the results from the model. The code for the model can be found here [all_data_model.py] (https://github.com/meutband/Capstone/blob/master/src/all_data_model.py).
 
@@ -111,7 +111,7 @@ Below is the results from the model. The code for the model can be found here [a
 
 ## 4 The Staff
 
-###4.1 Grouping the Farmers
+### 4.1 Grouping the Farmers
 
 For field officer analysis, I grouped all the farmers together by their field officer (Staff column). For the each field officer I calculated the mean farmer and the median farmer for all features, and the count of all course features. The features that I focused on in particular were the attendance rates, adoption rates, and the average yield totals. 
 
@@ -133,7 +133,7 @@ For all the mean and median calculations, I ranked the field officers by feature
 </table>
 </p>
 
-###4.2 Staff Summary
+### 4.2 Staff Summary
 
 2 out of the top 5 field officers who have the highest average yield are in the top third of mean average rank, 2 others are in the middle third, while 1 is in the bottom third.
 
